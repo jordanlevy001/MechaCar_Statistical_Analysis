@@ -52,25 +52,23 @@ From the above t-test, we can conclude that the PSI from Lot 2 is not statistica
 
 From the above t-test, we can conclude that the PSI from Lot 3 is statistically different from the population mean of 1500 pounds per square inch. Since, the p-value is 0.04168, we reject the null hypothesis. This means the true mean is not equal to 1500 pounds per square inch.
 
+
 ## Study Design: MechaCar vs Competition
-Designing a statistical study to compare the price of the MechaCar vehicles against the price of vehicles from other manufacturers.
+Designing a statistical study to compare the pricing of the MechaCar vehicles against the pricing of comparable size vehicles from other manufacturers.
 
-A. Metric to Test
-    The metric of interest in this study is car price, referred to below as "price".
-
+A. Metrics of the Test
+    - All cars in this study will be categorized into 1 of 3 groups based on size: economy(small), sedan(medium), suv(large)
+    - After grouping the MechaCars by size category, determine the mean selling price within that category. This will result in 3 respective sample means (MechaCar economy sample mean, MechaCar sedan sample mean, MechaCar suv sample mean).
+    - After grouping the competitor vehicles by size category, determine the mean selling price within each size category. This will be the population mean. This will result in 3 respective population means (economy population mean, sedan population mean, suv population mean).
+    
 B. Hypotheses
-    1. Null Hypothesis (Ho): There is no relationship between the dependent variable (price) and the independent variables (MPG, safety rating, horsepower, number of cylinders).
-    2. Alternative Hypothesis (Ha): There is a relationship between one or more of the independent variables and the dependent variable (price).
+    1. Null Hypothesis (Ho): There is no difference between the mean of the sample distribution and the mean of the population distribution.
+    2. Alternative Hypothesis (Ha): There is a difference between the mean of the sample distribution and the mean of the population distribution.
 
 C. The Type of Statistical Test
-The type of test required for this analysis is a multiple linear regression. This test will inform us if the independent variables (discussed below in part D) effect the dependent variable (price of the car). In other words, how much variance in the dependent variable is accounted for in a linear combination of the independent variables.
+The type of test required for this analysis is a one-sample t-test. This test will be performed 3 times - one time for each size category respectively. This one-sample t-test will inform us if there is a difference between the mean of the sample distribution and the mean of the population distribution.
 
 D. Data Required to Run the Test
-    1. The 8 major car manufacturing companies and their top 10 most popular car models
-    2. For each car model:
-        a. Price
-        b. MPG
-        c. Safety Rating
-        d. Horsepower
-        e. Number of Cylinders
+    1. The 10 major car manufacturing companies and their vehicles divided into 1 of the 3 size categories: economy(small), sedan(medium), suv(large). Then we need to calculate the mean price within each of those size categories respectively.
+    2. The MechaCar vehicles divided into 1 of the 3 size categories: economy(small), sedan(medium), suv(large). Then we need to calculate the mean price within each of those size categories respectively.
     3. Confirm the distribution of the data is normal
