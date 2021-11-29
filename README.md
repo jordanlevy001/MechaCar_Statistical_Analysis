@@ -58,14 +58,14 @@ Designing a statistical study to compare the pricing of the MechaCar vehicles ag
 
 A. Metrics of the Test
 
-    - All cars in this study will be categorized into 1 of 3 groups based on size: economy(small), sedan(medium), suv(large)
-    - After grouping the MechaCars by size category, determine the mean selling price within that category. This will result in 3 respective sample means (MechaCar economy sample mean, MechaCar sedan sample mean, MechaCar suv sample mean).
-    - After grouping the competitor vehicles by size category, determine the mean selling price within each size category. This will be the population mean. This will result in 3 respective population means (economy population mean, sedan population mean, suv population mean).
+- All cars in this study will be categorized into 1 of 3 groups based on size: economy(small), sedan(medium), suv(large)
+- After grouping the MechaCars by size category, determine the mean selling price within that category. This will result in 3 respective sample means (MechaCar economy sample mean, MechaCar sedan sample mean, MechaCar suv sample mean).
+- After grouping the competitor vehicles by size category, determine the mean selling price within each size category. This will be the population mean. This will result in 3 respective population means (economy population mean, sedan population mean, suv population mean).
     
 B. Hypotheses
 
-    1. Null Hypothesis (Ho): There is no difference between the mean of the sample distribution and the mean of the population distribution.
-    2. Alternative Hypothesis (Ha): There is a difference between the mean of the sample distribution and the mean of the population distribution.
+1. Null Hypothesis (Ho): There is no difference between the mean of the sample distribution and the mean of the population distribution.
+2. Alternative Hypothesis (Ha): There is a difference between the mean of the sample distribution and the mean of the population distribution.
 
 C. The Type of Statistical Test
 
@@ -73,6 +73,6 @@ The type of test required for this analysis is a one-sample t-test. This test wi
 
 D. Data Required to Run the Test
 
-    1. The 10 major car manufacturing companies and their vehicles divided into 1 of the 3 size categories: economy(small), sedan(medium), suv(large). Then we need to calculate the mean price within each of those size categories respectively.
-    2. The MechaCar vehicles divided into 1 of the 3 size categories: economy(small), sedan(medium), suv(large). Then we need to calculate the mean price within each of those size categories respectively.
-    3. Confirm the distribution of the data is normal
+1. The 10 major car manufacturing companies and their vehicles divided into 1 of the 3 size categories: economy(small), sedan(medium), suv(large). Then we need to calculate the mean price within each of those size categories respectively.
+2. The MechaCar vehicles divided into 1 of the 3 size categories: economy(small), sedan(medium), suv(large). Then we need to calculate the mean price within each of those size categories respectively.
+3. Confirm the distribution of the data is normal
