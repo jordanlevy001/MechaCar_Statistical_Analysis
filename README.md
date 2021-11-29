@@ -67,12 +67,13 @@ B. Hypotheses
 1. Null Hypothesis (Ho): There is no difference between the mean of the sample distribution and the mean of the population distribution.
 2. Alternative Hypothesis (Ha): There is a difference between the mean of the sample distribution and the mean of the population distribution.
 
-C. The Type of Statistical Test
+C. Type of Statistical Test
 
 The type of test required for this analysis is a one-sample t-test. This test will be performed 3 times - one time for each size category respectively. This one-sample t-test will inform us if there is a difference between the mean of the sample distribution and the mean of the population distribution. The goal is to determine if the sample mean (for each size category respectively) - the MechaCar pricing - is better than the competition pricing within each size category. So we need to perform a one-sample t-test to compare the mean of the sample distribution to the mean of the population distribution.
 
 D. Data Required to Run the Test
 
-1. The 10 major car manufacturing companies and their vehicles divided into 1 of the 3 size categories: economy(small), sedan(medium), suv(large). Then we need to calculate the mean price within each of those size categories respectively.
-2. The MechaCar vehicles divided into 1 of the 3 size categories: economy(small), sedan(medium), suv(large). Then we need to calculate the mean price within each of those size categories respectively.
+1. The 10 major car manufacturing companies and their vehicles divided into 1 of 3 size categories: economy(small), sedan(medium), suv(large). Then we need to calculate the mean price within each of those size categories respectively.
+2. The MechaCar vehicles divided into 1 of 3 size categories: economy(small), sedan(medium), suv(large). Then we need to calculate the mean price within each of those size categories respectively.
 3. Confirm the distribution of the data is normal
+4. Shapiro-Wilk test p-value approximately greater than 0.05
