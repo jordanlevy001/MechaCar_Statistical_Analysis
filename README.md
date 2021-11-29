@@ -69,7 +69,7 @@ B. Hypotheses
 
 C. The Type of Statistical Test
 
-The type of test required for this analysis is a one-sample t-test. This test will be performed 3 times - one time for each size category respectively. This one-sample t-test will inform us if there is a difference between the mean of the sample distribution and the mean of the population distribution.
+The type of test required for this analysis is a one-sample t-test. This test will be performed 3 times - one time for each size category respectively. This one-sample t-test will inform us if there is a difference between the mean of the sample distribution and the mean of the population distribution. The goal is to determine if the sample mean (for each size category respectively) - the MechaCar pricing - is better than the competition pricing within each size category. So we need to perform a one-sample t-test to compare the mean of the sample distribution to the mean of the population distribution.
 
 D. Data Required to Run the Test
 
