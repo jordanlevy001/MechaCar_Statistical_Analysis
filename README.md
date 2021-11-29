@@ -38,19 +38,19 @@ The following t-tests were performed to determine if all manufacturing lots and 
 
 <img width="402" alt="3 1" src="https://user-images.githubusercontent.com/88804543/143959017-57a033e4-6001-49de-a9a8-4507a3a85352.png">
 
-From the above t-test, we can conclude that the PSI across all manufacturing lots is not statistically different from the population mean of 1500 pounds per square inch. Since, the p-value is 0.06, we do not reject the null hypothesis.
+From the above t-test, we can conclude that the PSI across all manufacturing lots is not statistically different from the population mean of 1500 pounds per square inch. Since the p-value is 0.06, we do not reject the null hypothesis.
 
 <img width="554" alt="Lot1 t test" src="https://user-images.githubusercontent.com/88804543/143959033-6dbc688c-bda9-43f2-9c30-129baf0ddf53.png">
 
-From the above t-test, we can conclude that the PSI from Lot 1 is not statistically different from the population mean of 1500 pounds per square inch. Since, the p-value is 1, we do not reject the null hypothesis.
+From the above t-test, we can conclude that the PSI from Lot 1 is not statistically different from the population mean of 1500 pounds per square inch. Since the p-value is 1, we do not reject the null hypothesis.
 
 <img width="554" alt="Lot2 t test" src="https://user-images.githubusercontent.com/88804543/143959049-73381ee9-6924-4204-a9b3-b4723c11f1b6.png">
 
-From the above t-test, we can conclude that the PSI from Lot 2 is not statistically different from the population mean of 1500 pounds per square inch. Since, the p-value is 0.6072, we do not reject the null hypothesis.
+From the above t-test, we can conclude that the PSI from Lot 2 is not statistically different from the population mean of 1500 pounds per square inch. Since the p-value is 0.6072, we do not reject the null hypothesis.
 
 <img width="551" alt="Lot3 t test" src="https://user-images.githubusercontent.com/88804543/143959061-0c75ee8f-dff5-4b4b-9821-07282b95180f.png">
 
-From the above t-test, we can conclude that the PSI from Lot 3 is statistically different from the population mean of 1500 pounds per square inch. Since, the p-value is 0.04168, we reject the null hypothesis. This means the true mean is not equal to 1500 pounds per square inch.
+From the above t-test, we can conclude that the PSI from Lot 3 is statistically different from the population mean of 1500 pounds per square inch. Since the p-value is 0.04168, we reject the null hypothesis. This means the true mean is not equal to 1500 pounds per square inch.
 
 
 ## Study Design: MechaCar vs Competition
